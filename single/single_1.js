@@ -19,7 +19,6 @@ let singleton = function() {
 
 let single1 = singleton();
 
-log(single1 == single2)
 single1.publicMethod(); //something private
 log(single1.publicV)    //this is public variable
 log(single1.privateV)   //undefined
