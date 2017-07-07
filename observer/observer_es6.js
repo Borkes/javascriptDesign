@@ -1,5 +1,14 @@
 const log = console.log.bind(console);
 
+/**
+ * Set实例操作, let set = new Set() 或者传数组参数 new Set(array)
+ * set.size 成员数量
+ * set.add(value) 添加
+ * set.delete(value) 删除
+ * set.has(value) 判断是否有
+ * set.clear()  清空
+ */
+
 //用Set,实现单事件订阅
 class Observer {
     constructor() {

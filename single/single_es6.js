@@ -59,6 +59,9 @@ class Universe3 {
         };
         return Universe3.instance;
     }
+    hello() {
+        log('hello world')
+    }
 }
 
 let u3 = new Universe3();
@@ -66,3 +69,4 @@ let u4 = new Universe3();
 log(u3 === u4);
 u3.method();
 u4.method();
+u3.hello();
